@@ -1,5 +1,5 @@
 ---
-permalink: /DANS.html
+permalink: /projects/DANS.html
 title: "Data analysis in neuroscience at Seoul National University"
 layout: post
 date: 2019-02-22
