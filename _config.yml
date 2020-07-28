@@ -9,11 +9,11 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 # User setting
-owner:Soyeon Kim
-email:f2346@snu.ac.kr
+owner: Soyeon Kim
+email: f2346@snu.ac.kr
 facebook_username:
-twitter_username:soyeon__kim_
-github_username:soyeonn
+twitter_username: soyeon__kim_
+github_username: soyeonn
 address:
   - line:
   - line:
