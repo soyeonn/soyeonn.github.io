@@ -7,44 +7,16 @@
         <div class="row">
 
           <div class="col-md-6">
-          <head>
-          <style>
-            .imgBoxDiv{
-              position:relative;
-              cursor: pointer;
-              overflow: hidden;
-              box-shadow: 2px 2px 8px 0px #000;
-            }
-            .imgDiv{
-              position: absolute;
-              background: lightblue;
-              z-index:1;
-              -webkit-transition:all .5s ease;
-              transition: all .5s ease;
-              bottom:0px;
-              overflow:hidden;
-            }
-            .imgBoxDiv:hover .imgDiv{
-              bottom: 60px
-            }
-            .imgDesDiv{
-              padding:10px;
-              color:#4b4a4a;
-              background: #4b4a4a;
-              position:absolute;
-              bottom:0px;
-            }
-          </style>
-          </head>
-          <body>
-            <div class="imgBoxDiv">
+            <div class="portfolio-item">
               <a href="#">
-              <div class="imgDiv"><img src="img/portfolio-1.jpg"></div>
-              <div class="imgDesDiv">Hello world!</div>
-            </a>
+                <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+              </a>
             </div>
-          </body>
-        </div>
+            <div class="img__wrap">
+              <img class="img__img" src="img/portfolio-1.jpg" />
+              <p class="img__description">Hellow world!</p>
+            </div>
+          </div>
 
           <div class="col-md-6">
             <div class="portfolio-item">
