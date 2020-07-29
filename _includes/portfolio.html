@@ -6,18 +6,26 @@
         <hr class="small">
         <div class="row">
 
+          <head>
+            <style>
+              .portfolio-item{width: 300px; height:300px; position:relative;}
+              .img-portfolio{width: 100%; height:100%; position:absolute;}
+              .portfolio-item:hover .img-portfolio{bottom: 60px}
+              .text{width: 100%; height:50px; color:#FFFFFF; background: #F2CB61; position: absolute; bottom:0px}
+            </style>
+          </head>
+          <body>
           <div class="col-md-6">
             <div class="portfolio-item">
               <a href="#">
-                <img className="image" class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                <p className="attribution">Hello World!</p>
+                <img class="img-portfolio" src="img/portfolio-1.jpg">
+                <p class="text">Hello World!</p>
               </a>
             </div>
           </div>
-          .image:hover{
-            opacity: 0.7;
-            transition: 0.5s;
-          }
+        </body>
+        
+          
           <div class="col-md-6">
             <div class="portfolio-item">
               <a href="#">
