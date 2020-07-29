@@ -7,45 +7,48 @@
         <div class="row">
 
           <head>
-            <style>
-              .img-portfolio{}
-              .img-portfolio:hover{opacity:0.5}
-              .text{color:#FFFFFF; background: #1d1c19; opacity: 0.7; bottom:0px}
-            </style>
+          <style>
+            .imgBoxDiv{
+              width:300px;
+              height:300px;
+              position:relative;
+              cursor: pointer;
+              overflow: hidden;
+              box-shadow: 2px 2px 8px 0px #000;
+            }
+            .imgDiv{
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              background: lightblue;
+              z0index:1;
+              -webkit-transition:all .5s ease;
+              transition: all .5s ease;
+              bottom:0px;
+              overflow:hidden;
+            }
+            .imgBoxDiv:hover .imgDiv{
+              bottom: 60px
+            }
+            .imgDesDiv{
+              width: 100%
+              height:50px;
+              padding:10px;
+              color:#FFFFFF;
+              background: #F2Cb61;
+              position:absolute;
+              bottom:0px;
+            }
+          </style>
           </head>
           <body>
-          <div class="col-md-6">
-            <div class="portfolio-item">
-              <a href="#">
-                <img class="img-portfolio" src="img/portfolio-1.jpg">
-                <p class="text">Hello World!</p>
-              </a>
+            <div class="imgBoxDiv">
+              <div class="imgDiv"><img src="img/portfolio-1.jpg"></div>
+              <div class="imgDesDiv">Hello world!</div>
             </div>
-          </div>
-        </body>
-        
+          </body>
+
           
-          <div class="col-md-6">
-            <div class="portfolio-item">
-              <a href="#">
-                <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-              </a>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="portfolio-item">
-              <a href="#">
-                <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-              </a>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="portfolio-item">
-              <a href="#">
-                <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-              </a>
-            </div>
-          </div>
         </div>
         <!-- /.row (nested) -->
         <a href="#" class="btn btn-dark">View More Items</a>
