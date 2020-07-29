@@ -210,6 +210,13 @@ hr.small {
     opacity: 0.8;
 }
 
+.text {
+    margin: 0 auto;
+}
+
+.text:hover {
+    opacity: 1;
+}
 /* Call to Action */
 
 .call-to-action {
