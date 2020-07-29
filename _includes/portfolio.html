@@ -4,26 +4,48 @@
       <div class="col-lg-10 col-lg-offset-1 text-center">
         <h2>Projects</h2>
         <hr class="small">
-        <head>
-        <style>
-          .image{background:url(img/portfolio-1.jpg);background-repeat:no-repeat; background-size:cover;}
-          .text{ background:#000000; opacity:0;}
-          .text p{padding-top:100px}
-          .image:hover .text{text-align:center; color:#ffffff;}
-        </style>
-        </head>
-        <body>
-          <a href="#">
-          <div class = "image">
-          </a>
-            <div class = "text">
-              <p><font size=5>Hello World!</font></p>
+        <div class="row">
+
+          <div class="col-md-6">
+            <div class="portfolio-item">
+              <a href="#">
+                <img className="image" class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+                <p className="attribution">Hello World!</p>
+              </a>
             </div>
           </div>
-          
-        </body>
-</div>
-</div>
-</div>
+          .image:hover{
+            opacity: 0.7;
+            transition: 0.5s;
+          }
+          <div class="col-md-6">
+            <div class="portfolio-item">
+              <a href="#">
+                <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="portfolio-item">
+              <a href="#">
+                <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="portfolio-item">
+              <a href="#">
+                <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /.row (nested) -->
+        <a href="#" class="btn btn-dark">View More Items</a>
+      </div>
+      <!-- /.col-lg-10 -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
 </section>
-
