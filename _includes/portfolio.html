@@ -6,32 +6,52 @@
         <hr class="small">
         <div class="row">
           <div class="col-md-6">
-            <div class="portfolio-item">
-              <a href="#">
-                <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-              </a>
-            </div>
+            <!-- fade in 애니메이션을 이용하려면 class 에 effect-fade-in 추가 -->
+            <a href="#" class="portfolio-item effect-fade-in">
+              <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+              <div class="container-text-portfolio col-md-6">
+                <div class="text-portfolio">
+                  원하는 텍스트를 입력하세요<br />
+                  이렇게 하면 줄바꿈도 됍니다.
+                </div>
+              </div>
+            </a>
           </div>
           <div class="col-md-6">
-            <div class="portfolio-item">
-              <a href="#">
-                <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-              </a>
-            </div>
+            <!-- 아래에서 위로 올라오는 애니메이션을 이용하려면 class 에 effect-slide-from-bottom 추가 -->
+            <a class="portfolio-item effect-slide-from-bottom">
+              <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+              <div class="container-text-portfolio col-md-6">
+                <div class="text-portfolio">
+                  원하는 텍스트를 입력하세요<br />
+                  이렇게 하면 줄바꿈도 됍니다.
+                </div>
+              </div>
+            </a>
           </div>
           <div class="col-md-6">
-            <div class="portfolio-item">
-              <a href="#">
-                <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-              </a>
-            </div>
+            <!-- 위에서 아래로 내려가는 애니메이션을 이용하려면 class 에 effect-slide-from-top 추가 -->
+            <a class="portfolio-item effect-slide-from-top">
+              <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
+              <div class="container-text-portfolio col-md-6">
+                <div class="text-portfolio">
+                  원하는 텍스트를 입력하세요<br />
+                  이렇게 하면 줄바꿈도 됍니다.
+                </div>
+              </div>
+            </a>
           </div>
           <div class="col-md-6">
-            <div class="portfolio-item">
-              <a href="#">
-                <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-              </a>
-            </div>
+            <!-- 애니메이션 없음 efect-none -->
+            <a class="portfolio-item effect-none">
+              <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+              <div class="container-text-portfolio col-md-6">
+                <div class="text-portfolio">
+                  원하는 텍스트를 입력하세요<br />
+                  이렇게 하면 줄바꿈도 됍니다.
+                </div>
+              </div>
+            </a>
           </div>
         </div>
         <!-- /.row (nested) -->

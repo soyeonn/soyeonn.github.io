@@ -199,16 +199,89 @@ hr.small {
 }
 
 .portfolio-item {
+    margin: 0 auto;
     margin-bottom: 30px;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
 }
 
 .img-portfolio {
-    margin: 0 auto;
+    position: relative;
 }
 
-.img-portfolio:hover {
+.container-text-portfolio {
+    position: absolute;
+
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    z-index: 1;
+
+    background: rgba(0, 0, 0, 0.6);
+    color: rgb(255, 255, 255);
+}
+
+.effect-none:hover .container-text-portfolio {
     opacity: 0.8;
 }
+
+.effect-none .container-text-portfolio {
+    opacity: 0;
+}
+
+.effect-fade-in:hover .container-text-portfolio {
+    opacity: 0.8;
+}
+
+.effect-fade-in .container-text-portfolio {
+    opacity: 0;
+
+    transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;; /* opera */
+    -ms-transition: opacity 0.4s ease-in-out;; /* IE 10 */
+    -moz-transition: opacity 0.4s ease-in-out;; /* Firefox */
+    -webkit-transition: opacity 0.4s ease-in-out;; /*safari and chrome */
+}
+
+.effect-slide-from-bottom:hover .container-text-portfolio {
+    opacity: 0.8;
+    top: 0;
+}
+
+.effect-slide-from-bottom .container-text-portfolio {
+    top: 100%;
+    transition: top 0.4s ease-in-out;
+    -o-transition: top 0.4s ease-in-out;; /* opera */
+    -ms-transition: top 0.4s ease-in-out;; /* IE 10 */
+    -moz-transition: top 0.4s ease-in-out;; /* Firefox */
+    -webkit-transition: top 0.4s ease-in-out;; /*safari and chrome */
+}
+
+.effect-slide-from-top:hover .container-text-portfolio {
+    opacity: 0.8;
+    bottom: 0;
+}
+
+.effect-slide-from-top .container-text-portfolio {
+    bottom: 100%;
+    transition: bottom 0.4s ease-in-out;
+    -o-transition: bottom 0.4s ease-in-out;; /* opera */
+    -ms-transition: bottom 0.4s ease-in-out;; /* IE 10 */
+    -moz-transition: bottom 0.4s ease-in-out;; /* Firefox */
+    -webkit-transition: bottom 0.4s ease-in-out;; /*safari and chrome */
+}
+
+
 
 /* Call to Action */
 
