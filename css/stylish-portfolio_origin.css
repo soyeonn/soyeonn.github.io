@@ -194,28 +194,6 @@ hr.small {
 
 /* Portfolio */
 
-.img-portfolio {
-    position: relative;
-    background-image: url(/img/portfolio-1.jpg);                                                               
-    margin: 0 auto;
-}
-
-.img-portfolio:hover {
-    opacity: 0.8;
-}
-
-.img .text{
-     position: absolute;
-     top:50%;
-     left:50%;
-     transform: translate(-50%, -50%);                                                                   
-     font-size:5rem;
-     color: white;
-     z-index: 2;
-     text-align: center;
-}
-
-
 .portfolio {
     padding: 50px 0;
 }
@@ -224,6 +202,21 @@ hr.small {
     margin-bottom: 30px;
 }
 
+.img-portfolio {
+    margin: 0 auto;
+}
+
+.img-portfolio:hover {
+    opacity: 0.8;
+}
+
+.img-portfolio .text {
+    margin: 0 auto;
+}
+
+.img-portfolio .text:hover {
+    opacity: 1;
+}
 /* Call to Action */
 
 .call-to-action {
