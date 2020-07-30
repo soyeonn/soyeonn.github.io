@@ -210,11 +210,11 @@ hr.small {
     opacity: 0.8;
 }
 
-.text {
+.img-portfolio .text {
     margin: 0 auto;
 }
 
-.text:hover {
+.img-portfolio .text:hover {
     opacity: 1;
 }
 /* Call to Action */
