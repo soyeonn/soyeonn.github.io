@@ -249,3 +249,14 @@ hr.small {
 footer {
     padding: 100px 0;
 }
+
+p {
+    position: absolute;
+    left: 0px;
+    display: none;
+    width: 300px;
+    text-align: center;
+    margin: 0;
+    height: 20px;
+    top: 140px;
+}
