@@ -210,13 +210,6 @@ hr.small {
     opacity: 0.8;
 }
 
-.img-portfolio .text {
-    margin: 0 auto;
-}
-
-.img-portfolio .text:hover {
-    opacity: 1;
-}
 /* Call to Action */
 
 .call-to-action {
@@ -248,15 +241,4 @@ hr.small {
 
 footer {
     padding: 100px 0;
-}
-
-p {
-    position: absolute;
-    left: 0px;
-    display: none;
-    width: 300px;
-    text-align: center;
-    margin: 0;
-    height: 20px;
-    top: 140px;
 }
